@@ -181,7 +181,7 @@ conference:
   past_editions_videos_mid: " and "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "is &copy; by Grusp and its awesome staff"
+  footer_copy_text: "is &copy; by <a href='https://www.grusp.org'>GrUSP</a> and its awesome staff"
   footer_contact_text: "Contact us at "
   footer_links_pre: "You can read our "
   footer_links_privacy_link_label: "privacy policy"
