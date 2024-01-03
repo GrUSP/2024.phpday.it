@@ -65,14 +65,7 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/welcome/coc.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.phpday.it/welcome/public-health.html</loc>
+    <loc>https://2024.phpday.it/welcome/safety.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -86,6 +79,13 @@
   </url>
   
   <url>
+    <loc>https://2024.phpday.it/welcome/coc.html</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.phpday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2024-01-03</lastmod>
@@ -93,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/2019/08/19/test/</loc>
+    <loc>https://2024.phpday.it/404.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/404.html</loc>
+    <loc>https://2024.phpday.it/2019/08/19/test/</loc>
     
     <lastmod>2024-01-03</lastmod>
     
