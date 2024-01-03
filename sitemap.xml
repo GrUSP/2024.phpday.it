@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/workshop/workshop_1.html</loc>
+    <loc>https://2024.phpday.it/welcome/where.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -86,14 +86,7 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/welcome/where.html</loc>
-    
-    <lastmod>2024-01-03</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.phpday.it/404.html</loc>
+    <loc>https://2024.phpday.it/workshop/workshop_1.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
@@ -101,6 +94,13 @@
   
   <url>
     <loc>https://2024.phpday.it/2019/08/19/test/</loc>
+    
+    <lastmod>2024-01-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.phpday.it/404.html</loc>
     
     <lastmod>2024-01-03</lastmod>
     
