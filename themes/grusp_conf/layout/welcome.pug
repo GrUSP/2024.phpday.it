@@ -43,6 +43,10 @@ block content
                     include ../source/assets/ico/ico-coc.svg
                     - the_title = site.data.page_welcome.info_coc.title
                     - the_content = site.data.page_welcome.info_coc.content
+                  if(sub_key === "safety")
+                    include ../source/assets/ico/ico-safety.svg
+                    - the_title = site.data.page_welcome.info_safety.title
+                    - the_content = site.data.page_welcome.info_safety.content
                   if(sub_key === "scholarships")
                     include ../source/assets/ico/ico-scholarship.svg
                     - the_title = site.data.page_welcome.info_scholarships.title

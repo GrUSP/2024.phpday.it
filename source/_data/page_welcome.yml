@@ -11,9 +11,9 @@ info_about:
 info_coc:
   title: "COC"
   content: "Be nice to everyone"
-# info_safety:
-#   title: "Safety guidelines"
-#   content: "Health and safety are our priority"
+info_safety:
+  title: "Health & Safety"
+  content: "Health and safety are our priority"
 info_scholarships:
   title: "Scholarships"
   content: "How to apply"
