@@ -23,6 +23,7 @@ menu:
 welcome_submenu:
   about: about
   coc: code of conduct
+  #public-health: health and safety
   scholarships: scholarships
   where: where
   # delete this row to take out of the menu
