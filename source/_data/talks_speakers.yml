@@ -12,6 +12,9 @@ speaker_1: &speaker
   speaker_bio: ""
   speaker_github_url: ""
   speaker_twitter_url: ""
+  speaker_instagram_url: ""
+  speaker_linkedin_url: ""
+  speaker_mastodon_url: ""
   is_mc: false
 
 speakers:

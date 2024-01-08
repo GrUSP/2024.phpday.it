@@ -31,8 +31,8 @@ welcome_submenu:
 
 # stylesheets loaded in the <head>
 stylesheets:
-- /assets/css/global.css
+  - /assets/css/global.css
 
 # scripts loaded in the end of the body / commented out to prevent errors in compiling layout.pug
 scripts:
-- /assets/js/menu.js
+  - /assets/js/menu.js

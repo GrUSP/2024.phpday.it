@@ -16,16 +16,18 @@ footer
         strong !{where}
           | ,&nbsp;
           time(datetime=site.data.defaults.conference.date) !{start_date}
-      p !{site.data.defaults.conference.past_editions_pre}
-      p
-        each item in site.data.defaults.conference.past_editions 
-          - url = "https://" + item + "." + site.data.defaults.conference.base_url
-          a(href=url target="_blank" rel="noopener noreferrer").past-edition !{item}
-      p !{site.data.defaults.conference.past_editions_videos_pre}
-        a(href=site.data.defaults.conference.social_vimeo_url) !{site.data.defaults.conference.past_editions_videos_vimeo_label}
-        | !{site.data.defaults.conference.past_editions_videos_mid}
-        a(href=site.data.defaults.conference.social_youtube_url) !{site.data.defaults.conference.past_editions_videos_youtube_label}
-        | !{site.data.defaults.conference.past_editions_videos_post}
+
+      if(site.data.defaults.conference.past_editions)
+        p !{site.data.defaults.conference.past_editions_pre}
+        p
+          each item in site.data.defaults.conference.past_editions
+            - url = "https://" + item + "." + site.data.defaults.conference.base_url
+            a(href=url target="_blank" rel="noopener noreferrer").past-edition !{item}
+        p !{site.data.defaults.conference.past_editions_videos_pre}
+          a(href=site.data.defaults.conference.social_vimeo_url) !{site.data.defaults.conference.past_editions_videos_vimeo_label}
+          | !{site.data.defaults.conference.past_editions_videos_mid}
+          a(href=site.data.defaults.conference.social_youtube_url) !{site.data.defaults.conference.past_editions_videos_youtube_label}
+          | !{site.data.defaults.conference.past_editions_videos_post}
 
       include _social.pug
     .column.is-one-third
@@ -36,7 +38,7 @@ footer
               a(href=url_for(page_key) role="button" aria-label=page_label) !{page_label}
           if (site.data.defaults.conference.ticket_button_visible)
             li
-              a(href=site.data.defaults.conference.buy_tickets_url target="_blank" rel="noopener noreferrer external" role="button" aria-label=site.data.defaults.conference.buy_tickets_label) !{site.data.defaults.conference.menu_buy_tickets_label}
+              a(href=url_for("tickets") role="button" aria-label=site.data.defaults.conference.buy_tickets_label) !{site.data.defaults.conference.menu_buy_tickets_label}
     .column.is-one-third
       .footer__logo
         include ../../../../source/img/grusp-logo-full.svg
