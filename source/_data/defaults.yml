@@ -123,12 +123,12 @@ conference:
   #   playlist: if true, the iframe will be created. if false, it will not
   media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
-  media_video_is_youtube: false
+  media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   vimeo_base_url: "https://vimeo.com/album/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unncENcP_tESG1jRi8-ikAg2"
+  youtube_playlist_id: "PLWK9j6ps_unl6i9BSUGOLpVG868x0j9j_"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "9545846"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
