@@ -9,11 +9,15 @@ sponsors_block_title: ""
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Umana"
+    logo_filename: "umana.png"
+    site_url: "http://www.umana.it/"
+  sponsor2:
+    name: "vianova"
+    logo_filename: "vianova.svg"
+    site_url: "https://www.vianova.it/people/"
 gold:
   sponsor0:
     name: "Daruma"
@@ -27,11 +31,15 @@ gold:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-# silver:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+silver:
+ sponsor1:
+   name: "Facile.it"
+   logo_filename: "facile.svg"
+   site_url: "https://www.facile.it/"
+ sponsor2:
+   name: "Madisoft"
+   logo_filename: "madisoft.svg"
+   site_url: "https://labs.madisoft.it/"
 bronze:
   sponsor1:
     name: "Spreaker"
@@ -41,11 +49,11 @@ bronze:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
-# diversity:
-#   sponsor1:
-#     name: "S"
-#     logo_filename: ""
-#     site_url: ""
+diversity:
+  sponsor1:
+    name: "PHPStan"
+    logo_filename: "phpstan.svg"
+    site_url: "https://phpstan.org/"
 
 # Partner configuration
 partner_tags:

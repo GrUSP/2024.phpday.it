@@ -53,7 +53,7 @@ levels:
     name: Diamond
     amount: 5000
     vat_label: "(+ VAT 22%)"
-    available_slots: 2
+    available_slots: 1
     description_1:
       - "Access to attendees list (attendees who agreed to share their contact with sponsors)"
     description_2:
