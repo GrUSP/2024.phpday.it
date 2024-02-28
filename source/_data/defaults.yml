@@ -163,7 +163,6 @@ conference:
   base_url: "phpday.it/"
   past_editions_pre: "Browse past editions:"
   past_editions:
-    2011: "2011"
     2012: "2012"
     2013: "2013"
     2014: "2014"
