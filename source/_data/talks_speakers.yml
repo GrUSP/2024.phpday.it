@@ -244,6 +244,18 @@ speaker_15: &enricozimuel
   speaker_linkedin_url: https://www.linkedin.com/in/ezimuel
   speaker_instagram_url: ""
   speaker_mastodon_url:
+speaker_16: &edoardodusi
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: edoardo-dusi.png
+  speaker_role: MASTER OF CEREMONIES
+  is_mc: true
+  speaker_bio: ""
+  speaker_twitter_url:
+  speaker_github_url:
+  speaker_linkedin_url:
+  speaker_instagram_url: ""
+  speaker_mastodon_url:
 
 speakers:
   speaker_1: *roballen
@@ -261,6 +273,7 @@ speakers:
   speaker_13: *michellesanver
   speaker_14: *sarahsavage
   speaker_15: *enricozimuel
+  speaker_16: *edoardodusi
 
 days:
   day_1:

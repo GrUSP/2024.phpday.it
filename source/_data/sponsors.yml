@@ -19,15 +19,19 @@ platinum:
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/people/"
 gold:
-  sponsor0:
+  sponsor1:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor1:
+  sponsor2:
+    name: "Kanban Box"
+    logo_filename: "kanbanbox.svg"
+    site_url: "https://www.kanbanbox.com/"
+  sponsor3:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor2:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -44,6 +48,14 @@ silver:
    name: "Roave"
    logo_filename: "roave.svg"
    site_url: "https://roave.com/"
+ sponsor4:
+   name: "WeDevelop"
+   logo_filename: "wedevelop.svg"
+   site_url: "https://wedevelop.nl/"
+ sponsor5:
+   name: "WeRoad"
+   logo_filename: "weroad.svg"
+   site_url: "https://career.weroad.travel/"
 bronze:
   sponsor1:
     name: "Spreaker"
