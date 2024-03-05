@@ -17,7 +17,7 @@ platinum:
   sponsor2:
     name: "vianova"
     logo_filename: "vianova.svg"
-    site_url: "https://www.vianova.it/people/"
+    site_url: "https://www.vianova.it/"
 gold:
   sponsor1:
     name: "Daruma"
@@ -41,18 +41,22 @@ silver:
    logo_filename: "facile.svg"
    site_url: "https://www.facile.it/"
  sponsor2:
+   name: "Filina Consulting"
+   logo_filename: "filina.png"
+   site_url: "https://afilina.com"
+ sponsor3:
    name: "Madisoft"
    logo_filename: "madisoft.svg"
    site_url: "https://labs.madisoft.it/"
- sponsor3:
+ sponsor4:
    name: "Roave"
    logo_filename: "roave.svg"
    site_url: "https://roave.com/"
- sponsor4:
+ sponsor5:
    name: "WeDevelop"
    logo_filename: "wedevelop.svg"
    site_url: "https://wedevelop.nl/"
- sponsor5:
+ sponsor6:
    name: "WeRoad"
    logo_filename: "weroad.svg"
    site_url: "https://career.weroad.travel/"

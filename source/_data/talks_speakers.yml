@@ -248,7 +248,7 @@ speaker_16: &edoardodusi
   speaker_in_speaker_lists: true
   speaker_name: Edoardo Dusi
   speaker_pic_filename: edoardo-dusi.png
-  speaker_role: MASTER OF CEREMONIES
+  speaker_role: MASTER OF CEREMONIES - Developer Relations Engineer @ SparkFabrik
   is_mc: true
   speaker_bio: ""
   speaker_twitter_url:
