@@ -11,10 +11,18 @@ sponsors_block_title: ""
 #     site_url: ""
 platinum:
   sponsor1:
+    name: "elastic"
+    logo_filename: "elastic.svg"
+    site_url: "https://www.elastic.co"
+  sponsor2:
+    name: "Infobip"
+    logo_filename: "infobip.svg"
+    site_url: "https://www.infobip.com/"
+  sponsor3:
     name: "Umana"
     logo_filename: "umana.png"
     site_url: "http://www.umana.it/"
-  sponsor2:
+  sponsor4:
     name: "vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"
@@ -42,7 +50,7 @@ silver:
    site_url: "https://www.facile.it/"
  sponsor2:
    name: "Filina Consulting"
-   logo_filename: "filina.png"
+   logo_filename: "filina.svg"
    site_url: "https://afilina.com"
  sponsor3:
    name: "Madisoft"
