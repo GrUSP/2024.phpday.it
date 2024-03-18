@@ -56,10 +56,10 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "What is it?"
-  geninfo_description: "phpday is the yearly gathering for the European PHP community, since 2003</a>.
+  geninfo_description: "phpday is the yearly gathering for the European PHP community, since 2003.
   <br> <br /> The event is international and all sessions will be in English.
-  <br> <br /> 2024 edition is hybrid: it takes place in Verona (Italy) and will also be accessible online. The conference will last 2 days (16th and 17th of May).
-  <br />"
+  <br> <br /> 2024 edition is hybrid: it takes place in Verona (Italy) and will also be accessible online. The conference will last 2 days (16th and 17th of May, 2024).
+  <br> <br /> On the afternoon before the conference we'll host a <a href='https://2024.phpday.it/workshop/generative-AI-LLMs-PHP.html'>workshop about Generative AI.</a>"
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
@@ -109,7 +109,7 @@ conference:
     - "APIs"
   topics_payoff: "...and much more!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Buy tickets"
   workshops_readmore_label: "Read more"
