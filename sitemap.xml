@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://2024.phpday.it/welcome/about.html</loc>
+    <loc>https://2024.phpday.it/welcome/cfp.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
@@ -16,14 +16,14 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/schedule/index.html</loc>
+    <loc>https://2024.phpday.it/sponsor/index.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/sponsor/index.html</loc>
+    <loc>https://2024.phpday.it/schedule/index.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
@@ -58,14 +58,21 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/welcome/where.html</loc>
+    <loc>https://2024.phpday.it/workshop/generative-AI-LLMs-PHP.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/welcome/cfp.html</loc>
+    <loc>https://2024.phpday.it/welcome/about.html</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://2024.phpday.it/welcome/coc.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
@@ -86,14 +93,7 @@
   </url>
   
   <url>
-    <loc>https://2024.phpday.it/welcome/coc.html</loc>
-    
-    <lastmod>2024-03-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.phpday.it/workshop/generative-AI-LLMs-PHP.html</loc>
+    <loc>https://2024.phpday.it/welcome/where.html</loc>
     
     <lastmod>2024-03-27</lastmod>
     
