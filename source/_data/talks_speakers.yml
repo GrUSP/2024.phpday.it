@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -277,9 +277,220 @@ speakers:
 
 days:
   day_1:
-    date: 2024-05-16T09:45+02:00
+    date: 2024-05-16T09:30+02:00
     title: Day 1
     talks:
+      opening:
+        item_type: "service"
+        track: *track_1
+        start_datetime: 2024-05-16T09:30+02:00
+        end_datetime: 2024-05-16T09:45+02:00
+        talk_title: "Opening by GrUSP"
+      community-php-and-us:-growing-up-13:
+        item_type: keynote
+        track: *track_1
+        talk_title: "Community, PHP and us: Growing up"
+        talk_description: In year 2000 when PHP 4 just came out, we had functions.php and when
+          it started being big we made functions2.php. When object orientation
+          came out we renamed our databasefunctions.php and put a class around
+          it and called it OOP. PHP by then, was not very mature. I by then, was
+          not very mature. The community by then, was not very mature.     We
+          have come a long way since then! We now believe 12 year old girls on
+          the internet are not FBI agents. We now have type hints, and
+          namespaces, and composer! We have all matured.     Let me share my
+          story of amazing technology that changed my life. I will also share
+          some horrible community experiences, and the awesome ones that kept me
+          going.     Let’s keep growing, because we never really stop.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T09:45+02:00"
+        end_datetime: "2024-05-16T10:30+02:00"
+        speakers:
+          speaker_1: *michellesanver
+      crafting-elegant-apis-with-laravel-11:
+        item_type: talk
+        track: *track_1
+        talk_title: Crafting Elegant APIs with Laravel
+        talk_description: Well designed and performant API's are key aspects of good and
+          reliable application systems.     Especially when kicking of an API
+          system it is really hard to setup and define all boundaries that are
+          necessary to build a futureproof API. Changes later on can be time
+          consuming and of course expensive.     Therefore it is extremely
+          important to plan the API design beforehand and to use best practices
+          and patterns from the industry.     In this session I will guide the
+          listeners through the creation process of an API with Laravel and will
+          introduce and explain all important parts that constitute a battle
+          tested and robust API. Things like middleware layers, security tokens
+          are only some key points that will be presented on stage.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T10:30+02:00"
+        end_datetime: "2024-05-16T11:00+02:00"
+        speakers:
+          speaker_1: *johannespichler
+      coffee-morning:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-16T11:00+02:00"
+        end_datetime: "2024-05-16T11:30+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      what's-new-in-php-8.3-12:
+        item_type: talk
+        track: *track_1
+        talk_title: What's new in PHP 8.3
+        talk_description: During this presentation, we are going to look at the new features
+          that were introduced in PHP 8.3, and some in earlier
+          versions.     Join me to have a look at how the type system is
+          strengthened with Typed Class Constants, Readonly Classes, Arbitrary
+          Static Variable Initialisers, Overloaded Method Markers, and other new
+          smaller features and clean-ups.     At the end you will have a good
+          understanding about all the new and exciting features that are part of
+          the PHP 8.3 release.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T11:30+02:00"
+        end_datetime: "2024-05-16T12:20+02:00"
+        speakers:
+          speaker_1: *derickrethans
+      shrek-onions-and-architecture-4:
+        item_type: talk
+        track: *track_1
+        talk_title: Shrek, Onions and Architecture
+        talk_description: Have you ever encountered a codebase that's ogreish and has so many
+          layers of complexity that it makes you cry? It might actually be an
+          onion!     In this humorous talk we'll investigate the structure of
+          large monolithic applications and how we can peel back layers to
+          reveal greater understanding. Using the principles of hexagonal
+          architecture and the science of onion growth, we can make monoliths
+          great again.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T12:20+02:00"
+        end_datetime: "2024-05-16T13:10+02:00"
+        speakers:
+          speaker_1: *katyereira
+      lunch:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-16T13:10+02:00"
+        end_datetime: "2024-05-16T14:20+02:00"
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      lightning-talks:
+        item_type: "service"
+        start_datetime: "2024-05-16T14:20+02:00"
+        end_datetime: "2024-05-16T14:40+02:00"
+        talk_title: "Lightning Talks"
+        service_icon: "bolt"
+      wp-cli-for-php-developers-3:
+        item_type: talk
+        track: *track_1
+        talk_title: WP-CLI for PHP developers
+        talk_description: When was the last time you tested code in production? Your own website
+          doesn’t count.      Conversations with the Terminal, or WP-CLI for PHP
+          developers, is the sequel of WordPress through the Terminal talk,
+          focusing on a set of commands and tools useful for PHP
+          developers.     This is not just a live demo of WP-CLI commands. This
+          is zooming out and seeing WP-CLI in collaboration with other tools in
+          the context of PHP developer needs and everyday tasks. We’ll probably
+          release the Kraken as well.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T14:40+02:00"
+        end_datetime: "2024-05-16T15:30+02:00"
+        speakers:
+          speaker_1: *milanacap
+      building-fast-apis-and-middlewares:-mezzio-+-swoole-10:
+        item_type: talk
+        track: *track_1
+        talk_title: "Building Fast APIs and Middlewares: Mezzio + Swoole"
+        talk_description: "We'll be discussing Mezzio: A PSR-15 Middleware framework, allowing
+          you to build elegant middlewares for your applications and also
+          Swoole: a PHP extension that allows you to build high performance
+          applications.      In this session, we'll discuss some concepts of
+          middlewares/handlers, the http server, coroutines, tasks.      We'll
+          also look at how to combine both Mezzio and Swoole to get the best of
+          both worlds and highlight how this differs from the traditional
+          Apache/Nginx PHP approaches and pitfalls to be aware of when taking
+          the dive."
+        talk_video_url: ""
+        start_datetime: "2024-05-16T15:30+02:00"
+        end_datetime: "2024-05-16T16:20+02:00"
+        speakers:
+          speaker_1: *babarindeodewumi
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: "2024-05-16T16:20+02:00"
+        end_datetime: "2024-05-16T16:50+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      what-is-the-secure-software-supply-chain-and-the-current-state-of-the-php-ecosystem-9:
+        item_type: talk
+        track: *track_1
+        talk_title: What is the secure software supply chain and the current state of the
+          PHP ecosystem
+        talk_description: In this talk I’ll explain what is the Software Supply Chain, common
+          threats and mitigations and how they apply to IAC ecosystem too. I’ll
+          show off security threats using Terraform and its ecosystem and
+          finally i’ll talk about OCI images talking about digital signatures
+          and SBOM using Sigstore and Syft. I’ll do a live coding session
+          showing off how to deploy secure OCI images on K8S cluster with
+          security policies built with Kyverno, the session includes also
+          security scanning using the generated SBOM.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T16:50+02:00"
+        end_datetime: "2024-05-16T17:20+02:00"
+        speakers:
+          speaker_1: *paolomainardi
+      watch-the-clock-6:
+        item_type: talk
+        track: *track_1
+        talk_title: Watch the clock
+        talk_description: Creating current time information in code is rather easy by calling
+          time() or new DateTimeImmutable() directly when the information is
+          necessary. But that then makes the code a nightmare to test. In this
+          session we will see how the new PSR-20 allows us to change that by
+          still making it easy to generate current time information but also
+          allowing one to test the code. And we will get some background info
+          why it was designed in such a way.
+        talk_video_url: ""
+        start_datetime: "2024-05-16T17:20+02:00"
+        end_datetime: "2024-05-16T17:50+02:00"
+        speakers:
+          speaker_1: *andreasheigl
+      closing:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-16T17:50+02:00"
+        end_datetime: "2024-05-16T18:00+02:00"
+        talk_title: "See you tomorrow!"
+  day_2:
+    date: 2024-05-17T09:25+02:00
+    title: Day 2
+    talks:
+      opening:
+        item_type: "service"
+        track: *track_1
+        start_datetime: 2024-05-17T09:25+02:00
+        end_datetime: 2024-05-17T09:35+02:00
+        talk_title: "Opening by GrUSP"
+      decision-making-for-developers-7:
+        item_type: keynote
+        track: *track_1
+        talk_title: Decision-making for developers
+        talk_description: What do cars, chess and Peter Griffin have to do with
+          decision-making?     Decision-making is a complex process, we go
+          through it multiple times per day. Everything from micro-decisions
+          like deciding how to write a certain function, up to macro-decisions
+          like deciding what framework to use.     As a developer I'm always
+          looking for ways to improve myself, and as a lead I'm always looking
+          for ways to cultivate an effective and autonomous team. One particular
+          skill that is often overlooked is decision-making. In this talk I
+          would like to zoom in on this process.     I will be explaining some
+          of the psychology that goes into decision-making, give you some
+          decision-making techniques, explain how a decision-making framework
+          can help your team and why documenting your decisions is essential.
+        talk_video_url: ""
+        start_datetime: "2024-05-17T09:35+02:00"
+        end_datetime: "2024-05-17T10:20+02:00"
+        speakers:
+          speaker_1: *rickkuipers
       automate-all-the-things-with-cicd-in-github-actions-1:
         item_type: talk
         track: *track_1
@@ -296,10 +507,17 @@ days:
           session you'll be able to create your own workflows that will automate
           the your tooling.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T10:20+02:00"
+        end_datetime: "2024-05-17T10:50+02:00"
         speakers:
           speaker_1: *roballen
+      coffee-morning:
+        item_type: "service"
+        track: *track_1
+        start_datetime: "2024-05-17T10:50+02:00"
+        end_datetime: "2024-05-17T11:20+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
       how-to-contribute-to-php-2:
         item_type: talk
         track: *track_1
@@ -310,95 +528,37 @@ days:
           followed by a live coding session where we will add a new PHP function
           and its unit tests.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T11:20+02:00"
+        end_datetime: "2024-05-17T12:10+02:00"
         speakers:
           speaker_1: *ginapeterbanyard
-      wp-cli-for-php-developers-3:
+      generative-ai-and-large-language-model-(llm)-in-php-15:
         item_type: talk
         track: *track_1
-        talk_title: WP-CLI for PHP developers
-        talk_description: When was the last time you tested code in production? Your own website
-          doesn’t count.      Conversations with the Terminal, or WP-CLI for PHP
-          developers, is the sequel of WordPress through the Terminal talk,
-          focusing on a set of commands and tools useful for PHP
-          developers.     This is not just a live demo of WP-CLI commands. This
-          is zooming out and seeing WP-CLI in collaboration with other tools in
-          the context of PHP developer needs and everyday tasks. We’ll probably
-          release the Kraken as well.
+        talk_title: Generative AI and Large Language Model (LLM) in PHP
+        talk_description: In this talk, I'll give a quick introduction to LLM and how to use in
+          a PHP application. I'll show some examples using the LLPhant project
+          including a retrieval-augmented generation (RAG) system using OpenAI
+          and Elasticsearch as vector database. I'll also present some open
+          source LLM like GPT4All.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T12:10+02:00"
+        end_datetime: "2024-05-17T13:00+02:00"
         speakers:
-          speaker_1: *milanacap
-      shrek-onions-and-architecture-4:
-        item_type: talk
+          speaker_1: *enricozimuel
+      lunch:
+        item_type: "service"
         track: *track_1
-        talk_title: Shrek, Onions and Architecture
-        talk_description: Have you ever encountered a codebase that's ogreish and has so many
-          layers of complexity that it makes you cry? It might actually be an
-          onion!     In this humorous talk we'll investigate the structure of
-          large monolithic applications and how we can peel back layers to
-          reveal greater understanding. Using the principles of hexagonal
-          architecture and the science of onion growth, we can make monoliths
-          great again.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *katyereira
-      upgrading-legacy-to-the-latest-php-version-5:
-        item_type: talk
-        track: *track_1
-        talk_title: Upgrading Legacy to the Latest PHP Version
-        talk_description: Your application runs on an old PHP version that is about to go out of
-          support. How to upgrade without breaking the application? You will
-          need the right tools for detecting and fixing those issues, as well as
-          a way to verify that the application is still working correctly. In
-          this presentation, I will share the strategy that I employed when
-          upgrading millions of lines of untested code.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *annafilina
-      watch-the-clock-6:
-        item_type: talk
-        track: *track_1
-        talk_title: Watch the clock
-        talk_description: Creating current time information in code is rather easy by calling
-          time() or new DateTimeImmutable() directly when the information is
-          necessary. But that then makes the code a nightmare to test. In this
-          session we will see how the new PSR-20 allows us to change that by
-          still making it easy to generate current time information but also
-          allowing one to test the code. And we will get some background info
-          why it was designed in such a way.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *andreasheigl
-      decision-making-for-developers-7:
-        item_type: talk
-        track: *track_1
-        talk_title: Decision-making for developers
-        talk_description: What do cars, chess and Peter Griffin have to do with
-          decision-making?     Decision-making is a complex process, we go
-          through it multiple times per day. Everything from micro-decisions
-          like deciding how to write a certain function, up to macro-decisions
-          like deciding what framework to use.     As a developer I'm always
-          looking for ways to improve myself, and as a lead I'm always looking
-          for ways to cultivate an effective and autonomous team. One particular
-          skill that is often overlooked is decision-making. In this talk I
-          would like to zoom in on this process.     I will be explaining some
-          of the psychology that goes into decision-making, give you some
-          decision-making techniques, explain how a decision-making framework
-          can help your team and why documenting your decisions is essential.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *rickkuipers
+        start_datetime: "2024-05-17T13:00+02:00"
+        end_datetime: "2024-05-17T14:10+02:00"
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
+      lightning-talks:
+        item_type: "service"
+        start_datetime: "2024-05-17T14:10+02:00"
+        end_datetime: "2024-05-17T14:30+02:00"
+        talk_title: "Lightning Talks"
+        service_icon: "bolt"
       symfony-messenger:-the-sharpest-tool-in-your-php-toolbox-8:
         item_type: talk
         track: *track_1
@@ -418,105 +578,34 @@ days:
           tricks that you can leverage with it, why it's important to use them
           and which pitfalls you may encounter using this tool."
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T14:30+02:00"
+        end_datetime: "2024-05-17T15:20+02:00"
         speakers:
           speaker_1: *alessandrolai
-      what-is-the-secure-software-supply-chain-and-the-current-state-of-the-php-ecosystem-9:
+      upgrading-legacy-to-the-latest-php-version-5:
         item_type: talk
         track: *track_1
-        talk_title: What is the secure software supply chain and the current state of the
-          PHP ecosystem
-        talk_description: In this talk I’ll explain what is the Software Supply Chain, common
-          threats and mitigations and how they apply to IAC ecosystem too. I’ll
-          show off security threats using Terraform and its ecosystem and
-          finally i’ll talk about OCI images talking about digital signatures
-          and SBOM using Sigstore and Syft. I’ll do a live coding session
-          showing off how to deploy secure OCI images on K8S cluster with
-          security policies built with Kyverno, the session includes also
-          security scanning using the generated SBOM.
+        talk_title: Upgrading Legacy to the Latest PHP Version
+        talk_description: Your application runs on an old PHP version that is about to go out of
+          support. How to upgrade without breaking the application? You will
+          need the right tools for detecting and fixing those issues, as well as
+          a way to verify that the application is still working correctly. In
+          this presentation, I will share the strategy that I employed when
+          upgrading millions of lines of untested code.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T15:20+02:00"
+        end_datetime: "2024-05-17T16:10+02:00"
         speakers:
-          speaker_1: *paolomainardi
-      building-fast-apis-and-middlewares:-mezzio-+-swoole-10:
-        item_type: talk
+          speaker_1: *annafilina
+      coffee-afternoon:
+        item_type: "service"
         track: *track_1
-        talk_title: "Building Fast APIs and Middlewares: Mezzio + Swoole"
-        talk_description: "We'll be discussing Mezzio: A PSR-15 Middleware framework, allowing
-          you to build elegant middlewares for your applications and also
-          Swoole: a PHP extension that allows you to build high performance
-          applications.      In this session, we'll discuss some concepts of
-          middlewares/handlers, the http server, coroutines, tasks.      We'll
-          also look at how to combine both Mezzio and Swoole to get the best of
-          both worlds and highlight how this differs from the traditional
-          Apache/Nginx PHP approaches and pitfalls to be aware of when taking
-          the dive."
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *babarindeodewumi
-      crafting-elegant-apis-with-laravel-11:
-        item_type: talk
-        track: *track_1
-        talk_title: Crafting Elegant APIs with Laravel
-        talk_description: Well designed and performant API's are key aspects of good and
-          reliable application systems.     Especially when kicking of an API
-          system it is really hard to setup and define all boundaries that are
-          necessary to build a futureproof API. Changes later on can be time
-          consuming and of course expensive.     Therefore it is extremely
-          important to plan the API design beforehand and to use best practices
-          and patterns from the industry.     In this session I will guide the
-          listeners through the creation process of an API with Laravel and will
-          introduce and explain all important parts that constitute a battle
-          tested and robust API. Things like middleware layers, security tokens
-          are only some key points that will be presented on stage.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *johannespichler
-      what's-new-in-php-8.3-12:
-        item_type: talk
-        track: *track_1
-        talk_title: What's new in PHP 8.3
-        talk_description: During this presentation, we are going to look at the new features
-          that were introduced in PHP 8.3, and some in earlier
-          versions.     Join me to have a look at how the type system is
-          strengthened with Typed Class Constants, Readonly Classes, Arbitrary
-          Static Variable Initialisers, Overloaded Method Markers, and other new
-          smaller features and clean-ups.     At the end you will have a good
-          understanding about all the new and exciting features that are part of
-          the PHP 8.3 release.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *derickrethans
-      community-php-and-us:-growing-up-13:
-        item_type: talk
-        track: *track_1
-        talk_title: "Community, PHP and us: Growing up"
-        talk_description: In year 2000 when PHP 4 just came out, we had functions.php and when
-          it started being big we made functions2.php. When object orientation
-          came out we renamed our databasefunctions.php and put a class around
-          it and called it OOP. PHP by then, was not very mature. I by then, was
-          not very mature. The community by then, was not very mature.     We
-          have come a long way since then! We now believe 12 year old girls on
-          the internet are not FBI agents. We now have type hints, and
-          namespaces, and composer! We have all matured.     Let me share my
-          story of amazing technology that changed my life. I will also share
-          some horrible community experiences, and the awesome ones that kept me
-          going.     Let’s keep growing, because we never really stop.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *michellesanver
+        start_datetime: "2024-05-17T16:10+02:00"
+        end_datetime: "2024-05-17T16:40+02:00"
+        talk_title: "Coffee break"
+        service_icon: "coffee"
       twenty-lessons-from-twenty-years-of-php-14:
-        item_type: talk
+        item_type: keynote
         track: *track_1
         talk_title: Twenty lessons from twenty years of PHP
         talk_description: As any experienced developer will tell you, there’s a world of
@@ -525,24 +614,16 @@ days:
           including what it means to be senior, how to achieve perfect code, and
           what the best PHP framework really is.
         talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
+        start_datetime: "2024-05-17T16:40+02:00"
+        end_datetime: "2024-05-17T17:25+02:00"
         speakers:
           speaker_1: *sarahsavage
-      generative-ai-and-large-language-model-(llm)-in-php-15:
-        item_type: talk
+      closing:
+        item_type: "service"
         track: *track_1
-        talk_title: Generative AI and Large Language Model (LLM) in PHP
-        talk_description: In this talk, I'll give a quick introduction to LLM and how to use in
-          a PHP application. I'll show some examples using the LLPhant project
-          including a retrieval-augmented generation (RAG) system using OpenAI
-          and Elasticsearch as vector database. I'll also present some open
-          source LLM like GPT4All.
-        talk_video_url: ""
-        start_datetime: ""
-        end_datetime: ""
-        speakers:
-          speaker_1: *enricozimuel
+        start_datetime: "2024-05-17T17:25+02:00"
+        end_datetime: "2024-05-17T17:40+02:00"
+        talk_title: "Closing by GrUSP - See you next year!"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
