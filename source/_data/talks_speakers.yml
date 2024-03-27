@@ -126,7 +126,8 @@ speaker_8: &alessandrolai
   speaker_name: Alessandro Lai
   speaker_pic_filename: alessandro-lai.jpg
   speaker_role: Head of Platform @ Facile.it
-  speaker_bio: I am the Head of Platform at Facile.it, leading; nevertheless, I
+  speaker_bio: I am the Head of Platform at Facile.it, leading a team of 
+    specialized engineers to support our devs; nevertheless, I
     still write PHP code nearly every day. I started attending PHPDay in 2015,
     and it ignited my love for open source, which led me down this path of
     becoming a speaker, a secretary of PHP-FIG and a passionate PHP open source
