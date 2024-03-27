@@ -28,18 +28,22 @@ platinum:
     site_url: "https://www.vianova.it/"
 gold:
   sponsor1:
+    name: "beliven"
+    logo_filename: "beliven.svg"
+    site_url: "https://beliven.com/"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
-  sponsor2:
+  sponsor3:
     name: "Kanban Box"
     logo_filename: "kanbanbox.svg"
     site_url: "https://www.kanbanbox.com/"
-  sponsor3:
+  sponsor4:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor4:
+  sponsor5:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
