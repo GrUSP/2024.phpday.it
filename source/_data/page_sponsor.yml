@@ -78,7 +78,7 @@ levels:
     name: Platinum
     amount: 3000
     vat_label: "(+ VAT 22%)"
-    available_slots: 4
+    available_slots: 5
     description_2:
       - "Small Stand (in-person event)"
       - "Small Virtual booth"
