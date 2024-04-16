@@ -19,14 +19,10 @@ platinum:
     logo_filename: "elastic.svg"
     site_url: "https://www.elastic.co"
   sponsor3:
-    name: "Infobip"
-    logo_filename: "infobip.svg"
-    site_url: "https://www.infobip.com/"
-  sponsor4:
     name: "Umana"
     logo_filename: "umana.png"
     site_url: "http://www.umana.it/"
-  sponsor5:
+  sponsor4:
     name: "vianova"
     logo_filename: "vianova.svg"
     site_url: "https://www.vianova.it/"
@@ -40,18 +36,22 @@ gold:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "Infobip"
+    logo_filename: "infobip.svg"
+    site_url: "https://www.infobip.com/"
+  sponsor4:
     name: "Kanban Box"
     logo_filename: "kanbanbox.svg"
     site_url: "https://www.kanbanbox.com/"
-  sponsor4:
+  sponsor5:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.svg"
     site_url: "https://www.sparkfabrik.com/"
-  sponsor5:
+  sponsor6:
     name: "Switcho"
     logo_filename: "switcho.svg"
     site_url: "https://www.switcho.it"
-  sponsor6:
+  sponsor7:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
