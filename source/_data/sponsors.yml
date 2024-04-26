@@ -69,14 +69,18 @@ silver:
    logo_filename: "madisoft.svg"
    site_url: "https://labs.madisoft.it/"
  sponsor4:
+   name: "OpenAPI"
+   logo_filename: "openapi.svg"
+   site_url: "https://openapi.it/"
+ sponsor5:
    name: "Roave"
    logo_filename: "roave.svg"
    site_url: "https://roave.com/"
- sponsor5:
+ sponsor6:
    name: "WeDevelop"
    logo_filename: "wedevelop.svg"
    site_url: "https://wedevelop.nl/"
- sponsor6:
+ sponsor7:
    name: "WeRoad"
    logo_filename: "weroad.svg"
    site_url: "https://career.weroad.travel/"
