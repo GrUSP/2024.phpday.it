@@ -126,7 +126,7 @@ speaker_8: &alessandrolai
   speaker_name: Alessandro Lai
   speaker_pic_filename: alessandro-lai.jpg
   speaker_role: Head of Platform @ Facile.it
-  speaker_bio: I am the Head of Platform at Facile.it, leading a team of 
+  speaker_bio: I am the Head of Platform at Facile.it, leading a team of
     specialized engineers to support our devs; nevertheless, I
     still write PHP code nearly every day. I started attending PHPDay in 2015,
     and it ignited my love for open source, which led me down this path of
@@ -281,6 +281,12 @@ days:
     date: 2024-05-16T09:30+02:00
     title: Day 1
     talks:
+      checkin:
+        item_type: "service"
+        track: *track_1
+        start_datetime: 2024-05-16T08:45+02:00
+        end_datetime: 2024-05-16T09:30+02:00
+        talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
         track: *track_1
@@ -465,6 +471,12 @@ days:
     date: 2024-05-17T09:25+02:00
     title: Day 2
     talks:
+      checkin:
+        item_type: "service"
+        track: *track_1
+        start_datetime: 2024-05-17T08:45+02:00
+        end_datetime: 2024-05-17T09:25+02:00
+        talk_title: "Check-in and welcome coffee"
       opening:
         item_type: "service"
         track: *track_1
