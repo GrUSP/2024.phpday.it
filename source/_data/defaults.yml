@@ -28,7 +28,7 @@ conference:
   date: 2024-05-16T09:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text: 16 and 17 May 2024
-  countdown_visible: true
+  countdown_visible: false
   countdown_days: "days"
   countdown_hours: "hours"
   countdown_minutes: "minutes"
